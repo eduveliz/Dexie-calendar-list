@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+}
+
+.events {
+    width: 20%;
+}
+
+.calendar {
+    width: 80%;
+}
+
+.calendar-container{
+    padding: 1rem;
+}
+
+.event-container{
+    padding: 1rem;
+}
+
