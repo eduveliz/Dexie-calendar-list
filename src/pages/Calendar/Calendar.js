@@ -1,9 +1,9 @@
 import {Calendar} from "antd";
 import '../../styles.css';
 import {useState} from "react";
-import AddEvent from "./AddEvent";
 import Card from "antd/es/card/Card";
 import moment from 'moment';
+import AddEvent from "../../Components/AddEvent";
 
 function CalendarComponent(props) {
     const [isModalVisible, setIsModalVisible] = useState(false);
